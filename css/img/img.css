@@ -1,0 +1,10 @@
+.icon {
+	z-index: 1000;
+	background: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;}.st1{fill:#274798;}</style><path class="st0" d="M-450,3356c0,0,70,6,108-7c38-13,107-79,107-79l-90-55l-96,36L-450,3356z"/><path class="st1" d="M57.2,0.3c-0.3-0.2-0.6-0.3-1-0.3c-0.4,0-0.7,0.1-1,0.3L0.8,36.6c-0.6,0.4-0.9,1-0.8,1.7c0.1,0.7,0.5,1.2,1.1,1.5l14.2,5.7L22,57.1c0.3,0.6,0.9,0.9,1.6,0.9c0,0,0,0,0,0c0.6,0,1.2-0.3,1.6-0.9l3.8-6.3l17.6,7c0.2,0.1,0.4,0.1,0.7,0.1c0.3,0,0.6-0.1,0.9-0.2c0.5-0.3,0.8-0.7,0.9-1.3L58,2.1C58.1,1.4,57.8,0.7,57.2,0.3z M5.7,37.7l42-28L17.1,42.3c-0.2-0.1-0.3-0.2-0.5-0.3L5.7,37.7z M18.5,43.6C18.5,43.6,18.5,43.6,18.5,43.6L52.8,6.9L23.5,52.5L18.5,43.6z M45.7,53.7l-15.5-6.2c-0.4-0.1-0.8-0.2-1.1-0.2l23.8-37L45.7,53.7z"/></svg>');
+    height: 100px;
+    width: 100px;
+}
+
+.jumbotron {
+	background: url(../img/base.png);
+}
