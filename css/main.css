@@ -1,0 +1,47 @@
+body {
+    font-size: 100%;
+}
+
+h1 {
+  font-family: 'existencelight', sans-serif;
+}
+
+.container {
+	max-width: 1140px;
+}
+
+.header, .header a {
+	color: #fff;
+	text-align: center;
+}
+
+.scroller {
+	color: #fff;
+	text-align: center;
+}
+
+.navbar-default {
+  background: none; 
+  border: none; 
+}
+
+.turnabout {
+  display: inline-block;
+  text-align: center;
+  border: none;
+}
+
+.list {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.circle {
+	border: 1px solid #000;
+	border-radius: 50%;
+}
+
+.photo {
+	width: 10em;
+	height: 10em;
+}
