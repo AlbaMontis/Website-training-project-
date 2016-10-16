@@ -3,11 +3,18 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 4.125em;
+}
+
 h2 {
   font-size: 2.312em;
   font-weight: bold;
 }
 
+p {
+  font-size: 0.875em;
+}
 ul {
   padding: 0;
 }
@@ -36,7 +43,6 @@ img {
 
 /* Header */
 .jumbotron h1 {
-  font-size: 4.125em;
   font-family: 'existencelight', sans-serif;
   font-weight: bold;
 }
@@ -77,7 +83,6 @@ img {
 #team p {
   font-family: 'Lato-Light';
   font-weight: bold;
-  font-size: 0.875em;
 }
 
 .navbar {
@@ -124,7 +129,6 @@ img {
 #about p {
   font-family: 'Lato-Light';
   font-weight: bold;
-  font-size: 0.875em;
 }
 
 /* Quate */
@@ -205,7 +209,6 @@ img {
 
 #testimonials p {
   font-family: 'HelveticaNeueLTStd-BdCn';
-  font-size: 0.875em;
 }
 
 .list {
@@ -271,7 +274,6 @@ img {
 
 #portfolio p {
   font-family: 'HelveticaNeueLTStd-Lt';
-  font-size: 0.875em;
 }
 
 /* Contact */
@@ -289,3 +291,4 @@ img {
 #footer {
   text-align: center;
 }
+
