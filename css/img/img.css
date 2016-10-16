@@ -6,5 +6,10 @@
 }
 
 .jumbotron {
-	background: url(../img/base.png);
+	background: url(../img/base.png) no-repeat center center;
+}
+
+#quate,
+#services {
+	background: url(../img/quate.png) no-repeat center;
 }

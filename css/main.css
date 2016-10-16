@@ -1,34 +1,211 @@
 body {
-    font-size: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-h1 {
-  font-family: 'existencelight', sans-serif;
+h2 {
+  font-size: 2.312em;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+}
+
+img {
+  margin: 0;
+}
+
+.thumbnail {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+}
+
+.btn {
+  color: #fff;
+  font-family: 'Lato-Light';
+  font-size: 1em;
+  font-weight: bold;
+  border-bottom: 3px solid #6b2e68;
 }
 
 .container {
-	max-width: 1140px;
+  padding: 0;
 }
 
-.header, .header a {
-	color: #fff;
-	text-align: center;
+/* Header */
+.jumbotron h1 {
+  font-size: 4.125em;
+  font-family: 'existencelight', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron .container,
+.container {
+  max-width: 60%;
+}
+
+#header,
+#header a {
+  color: #fff;
+  text-align: center;
+}
+
+#header h2,
+#header p {
+  font-family: 'Lato-Hairline', sans-serif;
+}
+
+#header p {
+  font-size: 1.25em;
+}
+
+#header a {
+  font-family: 'Lato-Regular', sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
 }
 
 .scroller {
-	color: #fff;
-	text-align: center;
+  color: #fff;
+  text-align: center;
 }
 
-.navbar-default {
+/* Navigation */
+.navbar-nav a,
+#team p {
+  font-family: 'Lato-Light';
+  font-weight: bold;
+  font-size: 0.875em;
+}
+
+.navbar {
   background: none; 
   border: none; 
 }
 
+.navbar-brand {
+  font-family: 'existencelight', sans-serif;
+  font-weight: bold;
+  font-size: 1.437em;
+}
+
+/* Features*/
+#features {
+  background-color: #eee;
+  text-align: center;
+}
+
+#features h3,
+#features p {
+  font-family: 'Lato-Light';
+  font-weight: bold;
+}
+
+#features p {
+  font-size: 0.75em;
+}
+
+#features h3 {
+  font-size: 1.125em;
+}
+
+/* About us */
+#about h2,
+#team h2,
+#skills h2,
+#portfolio h2,
+#contact h2 {
+  text-align: center;
+  font-family: 'existencelight';
+}
+
+#about p {
+  font-family: 'Lato-Light';
+  font-weight: bold;
+  font-size: 0.875em;
+}
+
+/* Quate */
+#quate,
+#services {
+  color: #fff;
+  height: 100%;
+  text-align: center;
+}
+
+#quate h2,
+#services h2 {
+  font-family: 'Lato-Light';
+}
+
+/* Team */
+#team {
+  text-align: center;
+}
+
 .turnabout {
   display: inline-block;
+}
+
+.img-circle {
+  height: 100%;
+  width: 100%;
+  background: #cdcdcd;
+  padding-bottom: 85%;
+  max-width: 170px;
+  max-height: 170px;
+}
+
+#team h3 {
+  font-size: 1em;
+  font-family: 'Lato-Bold';
+}
+
+.social {
+  padding-top: 7px;
+  font-family: 'TitilliumWeb-Light', sans-serif;
+  font-size: 1.5em;
   text-align: center;
-  border: none;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+/* Skills */
+.left h3,
+.right h3 {
+  display: inline-block;
+}
+
+/* Statistics */
+#statistics {
+  text-align: center;
+  background: #eeeeee;
+}
+
+#statistics li {
+  margin: 0 40px 0 40px;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background: #eeeeee;
+  padding-bottom: 100px;
+}
+
+#testimonials q {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-size: 1.5em;
+}
+
+#testimonials p {
+  font-family: 'HelveticaNeueLTStd-BdCn';
+  font-size: 0.875em;
 }
 
 .list {
@@ -37,11 +214,78 @@ h1 {
 }
 
 .circle {
-	border: 1px solid #000;
-	border-radius: 50%;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
 
-.photo {
-	width: 10em;
-	height: 10em;
+.circle-photo-placeholder::after {
+  background: #cdcdcd;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  content: '';
+  display: inline-block;
+}
+
+/* Portfolio */
+#portfolio {
+  text-align: center;
+}
+
+#roof {
+  width: 70%;
+  background: #fff;
+  margin-top: -3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-group button {
+  display: inline-block;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+#portfolio .thumbnail {
+  width: 270px;
+  height: 270px;
+  overflow: hidden;
+}
+
+#portfolio img {
+  width: 100%;
+  height: 100%;
+}
+
+#portfolio .container {
+  max-width: 90%;
+}
+
+#portfolio h4 {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+#portfolio p {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-size: 0.875em;
+}
+
+/* Contact */
+#contact p {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-size: 1em;
+}
+
+#address p {
+  font-family: 'HelveticaNeueLTStd-BdCn';
+  font-size: 1.29em;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
 }

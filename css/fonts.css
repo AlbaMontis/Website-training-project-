@@ -1,6 +1,56 @@
 @font-face {
-    font-family: 'existencelight';
-    src: url('Existence-Light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'existencelight';
+  src: url('Existence-Light-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: url('Lato-Hairline.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('Lato-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('Lato-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  src: url('HelveticaNeueLTStd-Lt.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-BdCn';
+  src: url('HelveticaNeueLTStd-BdCn.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+t
+@font-face {
+  font-family: 'TitilliumWeb-Light';
+  src: url('TitilliumWeb-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
