@@ -1,4 +1,6 @@
-body {
+body,
+ul,
+img {
   padding: 0;
   margin: 0;
 }
@@ -15,18 +17,15 @@ h2 {
 p {
   font-size: 0.875em;
 }
-ul {
-  padding: 0;
-}
-
-img {
-  margin: 0;
-}
 
 .thumbnail {
   background-color: transparent;
   border: none;
   margin: 0;
+}
+
+.thumbnail-icon {
+  padding: 0 30px;
 }
 
 .btn {
@@ -35,10 +34,55 @@ img {
   font-size: 1em;
   font-weight: bold;
   border-bottom: 3px solid #6b2e68;
+  background-color: #9f449b;
+  padding: 12px 40px;
+  opacity: 0.95;
 }
 
 .container {
   padding: 0;
+}
+
+.hexagon {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  margin: auto;
+}
+
+.brand {
+  color:#9f449b;
+}
+
+.icon {
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.corner {
+  position: relative;
+}
+
+.corner::before {
+  content: '';
+  border-bottom: 2px solid #9f449b;
+  border-left: 2px solid #9f449b;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 45px;
+  left: -30px;
+}
+
+.corner::after {
+  content: '';
+  border-top: 2px solid #9f449b;
+  border-right: 2px solid #9f449b;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  right: -35px;
 }
 
 /* Header */
@@ -73,9 +117,14 @@ img {
   font-weight: bold;
 }
 
-.scroller {
+.hexagon-scroller {
   color: #fff;
   text-align: center;
+  padding: 20px 0;
+}
+
+#header .icon {
+  margin-bottom: 15px;
 }
 
 /* Navigation */
@@ -131,6 +180,11 @@ img {
   font-weight: bold;
 }
 
+#about img {
+  width: 100%;
+  height: auto;
+}
+
 /* Quate */
 #quate,
 #services {
@@ -177,6 +231,15 @@ img {
   border-radius: 50%;
   width: 45px;
   height: 45px;
+}
+
+.hexagon-pointer {
+  width: 40px;
+  height: auto;
+  display: inline-block;
+  padding: 10px 0;
+  color: #9f449b;
+  font-size: 1.25em;
 }
 
 /* Skills */
@@ -232,6 +295,10 @@ img {
   display: inline-block;
 }
 
+.progress-bar {
+  background-color: #9f449b;
+}
+
 /* Portfolio */
 #portfolio {
   text-align: center;
@@ -249,6 +316,8 @@ img {
   display: inline-block;
   color: #000;
   border: 1px solid #ccc;
+  background:#fff;
+  padding: 5px 20px;
 }
 
 #portfolio .thumbnail {

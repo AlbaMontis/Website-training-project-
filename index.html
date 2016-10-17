@@ -22,62 +22,94 @@
     <div class="jumbotron">
       <div id="header">
         <div class="container">
-          <h1>Bhagas<span>kara.</span></h1>
+          <h1>Bhagas<span class="brand">kara</span>.</h1>
           <h2>Fusce rutrum pretium lorem semper nulla.</h2>
           <p>Vestibulum ornare cursus nisl, fermentum tincidunt libero pretium et. Maecenas interdum ligula non 
     fermentum fringilla.</p>
           <div class="row">
             <div class="col-md-2 col-md-offset-4">
-              <a href="#services">Services</a>
+              <a href="#services">
+                <div class="hexagon">
+                  <div class="services-icon icon"></div>
+                  Services
+                </div>
+              </a>
             </div>
             <div class="col-md-2">
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio">
+                <div class="hexagon">
+                  <div id="portfolio-icon" class="icon"></div>
+                  Portfolio
+                </div>
+              </a>
             </div>
           </div>
           <div class="row">
             <div class="col-md-2">
-              <a href="#about">About</a>
+              <a href="#about">
+                <div class="hexagon">
+                  <div id="about-icon" class="icon"></div>
+                  About
+                </div>
+              </a>
             </div>
             <div class="col-md-2">
-              <a href="#team">Team</a>
+              <a href="#team">
+                <div class="hexagon">
+                  <div id="team-icon" class="icon"></div>
+                  Team
+                </div>
+              </a>
             </div>
-            <div class="col-md-2 col-md-offset-2">
-              <a href="#">Blog</a>
+            <div class="col-md-2 col-md-offset-4">
+              <a href="#">
+                <div class="hexagon">
+                  <div id="blog-icon" class="icon"></div>
+                  Blog
+                </div>
+              </a>
             </div>
             <div class="col-md-2">
-              <a href="#contact">Contact</a>
+              <a href="#contact">
+                <div class="hexagon">
+                  <div id="contact-icon" class="icon"></div>
+                  Contact
+                </div>
+              </a>
             </div>
           </div>
-          <div class="scroller"><span>V</span></div>
+          <a href="#navigation"><div class="hexagon hexagon-scroller"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div></a>
         </div>
       </div>
     </div>
     <!--/ Header -->
 
     <!-- Navigation -->
-    <div class="container">
-      <nav class="navbar navbar-default">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#header">Bhagas<span>kara.</span></a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#header">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#team">TEAM</a></li>
-            <li><a href="#services">SERVICES</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </div>
-      </nav>
+    <div id="navigation">
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#header">Bhagas<span class="brand">kara</span>.</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#header">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#team">TEAM</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#portfolio">PORTFOLIO</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
     <!--/ Navigation -->
 
@@ -87,7 +119,13 @@
         <div class="row">
           <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-              <a href="#" class="active"><img src="..." alt="..."></a>
+              <a href="#" class="active">
+                <div class="thumbnail-icon">
+                  <div class="hexagon hexagon-features">
+                    <div id="love-icon" class="icon"></div>
+                  </div>
+                </div>
+              </a>
               <div class="caption">
                 <h3>Build with love</h3>
                 <p>Fusce facilisis velit libero, nec 
@@ -99,7 +137,13 @@
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-              <a href="#"><img src="..." alt="..."></a>
+              <a href="#">
+                <div class="thumbnail-icon">
+                  <div class="hexagon hexagon-features">
+                    <div id="clean-icon" class="icon"></div>
+                  </div>
+                </div>
+              </a>
               <div class="caption">
                 <h3>Clean and modern</h3>
                 <p>Fusce facilisis velit libero, nec 
@@ -111,7 +155,13 @@
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-              <a href="#"><img src="..." alt="..."></a>
+              <a href="#">
+                <div class="thumbnail-icon">
+                  <div class="hexagon hexagon-features">
+                    <div id="easy-icon" class="icon"></div>
+                  </div>
+                </div>
+              </a>
               <div class="caption">
                 <h3>Easy to use</h3>
                 <p>Fusce facilisis velit libero, nec 
@@ -123,7 +173,13 @@
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-              <a href="#"><img src="..." alt="..."></a>
+              <a href="#">
+                <div class="thumbnail-icon">
+                  <div class="hexagon hexagon-features">
+                    <div id="responsive-icon" class="icon"></div>
+                  </div>
+                </div>
+              </a>
               <div class="caption">
                 <h3>Fully Responsive</h3>
                 <p>Fusce facilisis velit libero, nec 
@@ -141,10 +197,10 @@
     <!-- About us -->
     <div id="about">
       <div class="container">
-        <h2>About <span>us</span></h2>
+        <h2><span class="corner">About <span class="brand">us</span></span></h2>
         <div class="row">
           <div class="col-md-7">
-            <img class="responsive" src="..." alt="...">
+            <img class="responsive" src="css/img/mockups.png" alt="...">
           </div>
           <div class="col-md-5">
             <p>Aliquam metus neque, bibendum sit amet porta at, consequat et 
@@ -163,8 +219,9 @@
     <!-- Quate -->
     <div id="quate">
       <div class="container">
-      <!-- Add icon -->
-        <div></div>
+        <div class="hexagon">
+          <div id="quate-icon" class="icon"></div>
+        </div>
         <h2>We lorem and ipsum your aliquam</h2>
       </div>
     </div>
@@ -173,8 +230,11 @@
     <!-- Team -->
     <div id="team">
       <div class="container">
-        <h2>Our <span>team</span></h2>
-        <!-- Add toggler -->
+        <h2><span class="corner">Our <span class="brand">team</span></span></h2>
+        <div>
+          <div class="hexagon hexagon-pointer"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></div>
+          <div class="hexagon hexagon-pointer"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></div>
+        </div>
         <div class="thumbnail turnabout">
           <img src="" class="img-responsive img-circle" alt="">
           <div class="caption">
@@ -209,7 +269,7 @@
     <!-- Experience -->
     <div id="skills">
       <div class="container">
-        <h2>Our skills</h2>
+        <h2><span class="corner">Our <span class="brand">skills</span></span></h2>
         <div class="row">
         <div class="col-md-5 left">
           <h3 class="text-left">WEB DESIGN</h3>
@@ -257,6 +317,9 @@
     <!-- Service -->
     <div id="services">
       <div class="container">
+      <div class="hexagon">
+        <div class="services-icon icon"></div>
+      </div>
         <h2>Our services will lorem and ipsum 
 your aliquam</h2>
       </div>
@@ -313,7 +376,7 @@ your aliquam</h2>
     <div id="portfolio">
     <div id="roof">
       <div class="container">
-        <h2>Our <span>portfolio</span></h2>
+        <h2><span class="corner">Our <span class="brand">portfolio</span></span></h2>
         <div class="button-group">
           <button type="button" class="btn btn-default active">ALL</button>
           <button type="button" class="btn btn-default">WEB</button>
@@ -387,7 +450,7 @@ your aliquam</h2>
     <!-- Contact -->
     <div id="contact">
       <div class="container">
-        <h2>Get <span>in touch</span></h2>
+        <h2><span class="corner">Get <span class="brand">in touch</span></span></h2>
         <div class="row">
           <div class="col-md-6">
             <form>
@@ -421,7 +484,7 @@ your aliquam</h2>
     <!-- Footer -->
     <div id="footer">
       <div class="container">
-        <h2>Bhagas<span>kara.</span></h2>
+        <h2>Bhagas<span class="brand">kara</span>.</h2>
       </div>
     </div>
     </body>
