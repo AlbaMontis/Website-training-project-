@@ -65,32 +65,6 @@ a {
   margin-left: auto;
 }
 
-.corner {
-  position: relative;
-}
-
-.corner::before {
-  content: '';
-  border-bottom: 2px solid #9f449b;
-  border-left: 2px solid #9f449b;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 45px;
-  left: -30px;
-}
-
-.corner::after {
-  content: '';
-  border-top: 2px solid #9f449b;
-  border-right: 2px solid #9f449b;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: -10px;
-  right: -35px;
-}
-
 #features,
 #about,
 #team,
@@ -119,6 +93,33 @@ a {
 .navbar-default .navbar-nav>li.activated>a {
   color: #9f449b;
   background-color: transparent;
+}
+
+/* Corners for headers */
+.corner {
+  position: relative;
+}
+
+.corner::before {
+  content: '';
+  border-bottom: 2px solid #9f449b;
+  border-left: 2px solid #9f449b;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 45px;
+  left: -30px;
+}
+
+.corner::after {
+  content: '';
+  border-top: 2px solid #9f449b;
+  border-right: 2px solid #9f449b;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  right: -35px;
 }
 
 /* Header */
@@ -297,15 +298,17 @@ a {
 }
 
 .social {
-  padding-top: 7px;
+  padding-top: 4px;
   font-family: 'TitilliumWeb-Light', sans-serif;
-  font-size: 1.5em;
+  font-weight: bold;
+  font-size: 1.7em;
   text-align: center;
   display: inline-block;
   border: 1px solid #000;
   border-radius: 50%;
   width: 45px;
   height: 45px;
+  margin: 0 3% 0 0;
 }
 
 .hexagon-pointer {
@@ -516,8 +519,10 @@ a {
 /* Footer */
 #footer {
   text-align: center;
+  margin-bottom: 5%;
 }
 
+/* Media Queries */
 @media only screen and (max-width: 1024px) {
   #about button {
     position: static;
