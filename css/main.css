@@ -394,19 +394,18 @@ a {
   margin-top: 5%;
 }
 
-.list {
-  display: inline-block;
-  list-style-type: none;
+.carousel-indicators {
+  position: static;
+  width: auto;
+  left: auto;
+  margin-left: auto;
 }
 
-.circle {
-  border: 1px solid #000;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
+.carousel-indicators li {
+  border-color: #777777;
 }
 
-.active-circle {
+.carousel-indicators .active {
   background-color: #777777;
 }
 

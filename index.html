@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
 
+    <link rel="stylesheet" type="text/css" href="./grunt/dist/output.css">
     <!-- Bootstrap -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./grunt/dist/output.css">
-
+    
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -354,16 +354,50 @@
         <div class="circle-photo-placeholder">
          <!-- <img src="" class="img-responsive img-circle" alt=""> -->
         </div>
-        <q cite="pinterest.com">Fusce dapibus, tellus ac cursus commodo, tortor mauris <br>condimentum. Duis mollis, est non commodo luctus, nisi erat</q>
-        <p>LESALE CHRISTOPER, PINTEREST</p>
-        <ul>
-          <li class="circle list"></li>
-          <li class="circle list"></li>
-          <li class="circle list active-circle"></li>
-          <li class="circle list"></li>
-          <li class="circle list"></li>
-          <li class="circle list"></li>
-        </ul>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <q cite="pinterest.com">Fusce dapibus, tellus ac cursus commodo, tortor mauris <br>condimentum. Duis mollis, est non commodo luctus, nisi erat</q>
+              <p>LESALE CHRISTOPER, PINTEREST</p>
+            </div>
+
+            <div class="item">
+              <q cite="pinterest.com">Fusce dapibus, tellus ac cursus commodo, tortor mauris <br>condimentum. Duis mollis, est non commodo luctus, nisi erat</q>
+              <p>LESALE CHRISTOPER, PINTEREST</p>
+            </div>
+
+            <div class="item">
+              <q cite="pinterest.com">Fusce dapibus, tellus ac cursus commodo, tortor mauris <br>condimentum. Duis mollis, est non commodo luctus, nisi erat</q>
+              <p>LESALE CHRISTOPER, PINTEREST</p>
+            </div>
+
+            <div class="item">
+              <q cite="pinterest.com">Fusce dapibus, tellus ac cursus commodo, tortor mauris <br>condimentum. Duis mollis, est non commodo luctus, nisi erat</q>
+              <p>LESALE CHRISTOPER, PINTEREST</p>
+            </div>
+
+            <div class="item">
+              <q cite="pinterest.com">Fusce dapibus, tellus ac cursus commodo, tortor mauris <br>condimentum. Duis mollis, est non commodo luctus, nisi erat</q>
+              <p>LESALE CHRISTOPER, PINTEREST</p>
+            </div>
+
+            <div class="item">
+              <q cite="pinterest.com">Fusce dapibus, tellus ac cursus commodo, tortor mauris <br>condimentum. Duis mollis, est non commodo luctus, nisi erat</q>
+              <p>LESALE CHRISTOPER, PINTEREST</p>
+            </div>
+          </div>
+          
+          <!-- Indicators -->
+          <ul id="carousel-indicators" class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+          </ul>
+        </div>
       </div>
     </div>
     <!--/ Testimonials -->
