@@ -363,6 +363,11 @@ a {
   font-family: 'HelveticaNeueLTStd-Lt';
 }
 
+.list {
+  list-style-type: none;
+  display: inline-block;
+}
+
 #statistics li {
   margin: 0 40px 0 40px;
 }
