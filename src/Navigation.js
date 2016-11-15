@@ -34,7 +34,7 @@ function AddActiveClass() {
 	  for (;length;) {
 		  $(tab[--length]).removeClass('activated');
 	  }
-	console.log(href);	
+		
 	  links.forEach(function(el) {
       $(el).hasClass('tab') ? $(el).addClass('activated') :
       $(el).parent().addClass('activated');
@@ -53,17 +53,15 @@ function AddActiveClass() {
 	  });
 
 	  $(window).scroll( function() {
-      var siblings = $('div#jumbotron').nextUntil($('script'));
+      var siblings = $('body > div');
       var length = siblings.length;
       var i;
-      //var sibling;
+      var sibling;
       
       for(i = 0; i < length; i++) {
-      var	sibling = siblings[i];
+      sibling = siblings[i];
 
-	      if ($(sibling).offset().top <= ($(document).scrollTop() +
-			    $('#navigation').outerHeight() + 
-			    parseInt($('#team').css('padding-bottom')))) {
+	      if ($(sibling).offset().top <= ($(document).scrollTop() + $('#navigation').innerHeight())) {
 
 	        filter(sibling);
 	      }

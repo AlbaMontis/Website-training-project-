@@ -1,3 +1,7 @@
+html {
+  font-size: 11px;
+}
+
 body,
 ul,
 img,
@@ -9,13 +13,17 @@ a {
 }
 
 h2 {
-  font-size: 2.312em;
+  font-size: 3rem;
   font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 p,
 a {
-  font-size: 0.875em;
+  font-size: 1.2rem;
 }
 
 .container,
@@ -36,7 +44,7 @@ a {
 .btn {
   color: #fff;
   font-family: 'Lato-Light';
-  font-size: 1em;
+  font-size: 1.3rem;
   font-weight: bold;
   border-bottom: 3px solid #6b2e68;
   background-color: #9f449b;
@@ -130,8 +138,8 @@ a {
 .jumbotron h1 {
   font-family: 'existencelight', sans-serif;
   font-weight: bold;
-  margin-bottom: 7%;
-  font-size: 4.125em;
+  margin-bottom: 6%;
+  font-size: 4.2rem;
 }
 
 #header,
@@ -140,14 +148,15 @@ a {
   text-align: center;
 }
 
-#header h2,
-#header p {
+#header h2 {
+  font-size: 2.3rem;
   font-family: 'Lato-Hairline', sans-serif;
 }
 
 #header p {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   margin-bottom: 7%;
+  font-family: 'Lato-Hairline', sans-serif;
 }
 
 #header a {
@@ -184,7 +193,7 @@ a {
 .navbar-brand {
   font-family: 'existencelight', sans-serif;
   font-weight: bold;
-  font-size: 1.437em;
+  font-size: 2.2rem;
 }
 
 #quate .hexagon,
@@ -205,12 +214,8 @@ a {
 }
 
 #features p {
-  font-size: 0.75em;
+  font-size: 1rem;
   line-height: 1.8;
-}
-
-#features h3 {
-  font-size: 1.125em;
 }
 
 /* About us */
@@ -267,6 +272,7 @@ a {
 #services h2 {
   font-family: 'Lato-Light';
   margin-top: 5%;
+  font-size: 2.5rem;
 }
 
 /* Team */
@@ -293,7 +299,7 @@ a {
 }
 
 #team h3 {
-  font-size: 1em;
+  font-size: 1.2rem;
   font-family: 'Lato-Bold';
 }
 
@@ -301,7 +307,6 @@ a {
   padding-top: 4px;
   font-family: 'TitilliumWeb-Light', sans-serif;
   font-weight: bold;
-  font-size: 1.7em;
   text-align: center;
   display: inline-block;
   border: 1px solid #000;
@@ -311,13 +316,17 @@ a {
   margin: 0 3% 0 0;
 }
 
+.social a {
+  font-size: 1.7rem;
+}
+
 .hexagon-pointer {
   width: 40px;
   height: auto;
   display: inline-block;
   padding: 10px 0;
   color: #9f449b;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 /* Skills */
@@ -328,6 +337,7 @@ a {
 .left h3,
 .right h3 {
   display: inline-block;
+  font-size: 1.8rem;
 }
 
 .text-left {
@@ -342,13 +352,17 @@ a {
 .progress {
   clear: both;
 }
-
+ 
 #skills .left {
   padding-right: 5%;
 }
 
 #skills .right {
   padding-left: 5%;
+}
+
+.progress-bar {
+  transition: width 1s;
 }
 
 /* Services */
@@ -385,7 +399,7 @@ a {
 
 #testimonials q {
   font-family: 'HelveticaNeueLTStd-Lt';
-  font-size: 1.5em;
+  font-size: 1.5rem;
   display: block;
 }
 
@@ -481,7 +495,7 @@ a {
 
 #portfolio h4 {
   font-family: 'HelveticaNeueLTStd-Lt';
-  font-size: 1.125em;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -496,12 +510,11 @@ a {
 /* Contact */
 #contact p {
   font-family: 'HelveticaNeueLTStd-Lt';
-  font-size: 1em;
 }
 
 #address p {
   font-family: 'HelveticaNeueLTStd-BdCn';
-  font-size: 1.29em;
+  font-size: 1.6rem;
   margin-bottom: 0;
 }
 
@@ -535,5 +548,9 @@ a {
   #skills .left,
   #skills .right {
     padding: 0;
+  }
+
+  .hexagon-tabs {
+    display: none;
   }
 }
