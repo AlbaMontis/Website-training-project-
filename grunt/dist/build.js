@@ -13,6 +13,9 @@ $(document).ready(function() {
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
+      
+      // Close nav-bar menu
+      $('#menu').removeClass('in');
 
       // Store hash
       var hash = this.hash;
@@ -87,7 +90,17 @@ function AddActiveClass() {
 };
 
 $(document).ready(function() {
-	$('.progress-bar').animate({
-		width:'100%';
-	})
-})
+	
+	$(window).scroll( function() {
+
+		if ( $('#skills').offset().top <= ($(document).scrollTop() +
+		     $('#navigation').outerHeight() + 
+		     parseInt($('#team').css('padding-bottom')))) {
+
+				$('.progress-bar').css('width',
+					function() {
+						return ($(this).attr('aria-valuenow')+'%')
+					});
+    }
+	});
+});

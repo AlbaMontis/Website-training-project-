@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="jumbotron">
+    <div id="jumbotron" class="jumbotron">
       <div id="header">
         <div class="container">
           <h1>Bhagas<span class="brand">kara</span>.</h1>
@@ -94,18 +94,18 @@
             <button type="button" 
                     class="navbar-toggle collapsed" 
                     data-toggle="collapse" 
-                    data-target="#bs-example-navbar-collapse-1" 
+                    data-target="#menu" 
                     aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#header">Bhagas<span class="brand">kara</span>.</a>
+            <a class="navbar-brand" href="#jumbotron">Bhagas<span class="brand">kara</span>.</a>
           </div>
-          <div class="collapse navbar-collapse">
+          <div id="menu" class="collapse navbar-collapse">
             <ul id="dropdown" class="nav navbar-nav navbar-right">
-              <li class="tab"><a href="#header">HOME</a></li>
+              <li class="tab"><a href="#jumbotron">HOME</a></li>
               <li class="tab"><a href="#about">ABOUT</a></li>
               <li class="tab"><a href="#team">TEAM</a></li>
               <li class="tab"><a href="#services">SERVICES</a></li>
@@ -235,8 +235,8 @@
           <div class="caption">
             <h3>ANNE HATHAWAY</h3>
             <p>CEO/Marceting Guru</p>
-            <div class="social">f</div>
-            <div class="social">g</div>
+            <div class="social"><a href="javascript:void(0)">f</a></div>
+            <div class="social"><a href="javascript:void(0)">g</a></div>
           </div>
         </div>
         <div class="thumbnail">
@@ -244,8 +244,8 @@
           <div class="caption">
             <h3>ANNE HATHAWAY</h3>
             <p>CEO/Marceting Guru</p>
-            <div class="social">f</div>
-            <div class="social">g</div>
+            <div class="social"><a href="javascript:void(0)">f</a></div>
+            <div class="social"><a href="javascript:void(0)">g</a></div>
           </div>
         </div>
         <div class="thumbnail right">
@@ -253,8 +253,8 @@
           <div class="caption">
             <h3>ANNE HATHAWAY</h3>
             <p>CEO/Marceting Guru</p>
-            <div class="social">f</div>
-            <div class="social">g</div>
+            <div class="social"><a href="javascript:void(0)">f</a></div>
+            <div class="social"><a href="javascript:void(0)">g</a></div>
           </div>
         </div>
       </div>
@@ -274,7 +274,7 @@
             <div class="progress">
               <div class="progress-bar" 
                    role="progressbar" aria-valuenow="90" 
-                   aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                   aria-valuemin="0" aria-valuemax="100" style="width:0%;">
                 <span class="sr-only">90% Complete</span>
               </div>
             </div>
@@ -282,8 +282,8 @@
             <h3 class="text-right">75%</h3>
             <div class="progress">
               <div class="progress-bar" 
-                   role="progressbar" aria-valuenow="7" 
-                   aria-valuemin="0" aria-valuemax="100" style="width:75%;">
+                   role="progressbar" aria-valuenow="75" 
+                   aria-valuemin="0" aria-valuemax="100" style="width:0%;">
                 <span class="sr-only">75% Complete</span>
               </div>
             </div>
@@ -294,7 +294,7 @@
             <div class="progress">
               <div class="progress-bar" 
                    role="progressbar" aria-valuenow="70" 
-                   aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                   aria-valuemin="0" aria-valuemax="100" style="width:0%;">
                 <span class="sr-only">70% Complete</span>
               </div>
             </div>
@@ -303,7 +303,7 @@
             <div class="progress">
               <div class="progress-bar" 
                    role="progressbar" aria-valuenow="85" 
-                   aria-valuemin="0" aria-valuemax="100" style="width:85%;">
+                   aria-valuemin="0" aria-valuemax="100" style="width:0%;">
                 <span class="sr-only">85% Complete</span>
               </div>
             </div>
@@ -405,77 +405,77 @@
     
     <!-- Portfolio -->
     <div id="portfolio">
-    <div id="roof">
-      <div class="container">
-        <h2>
-          <span class="corner">Our <span class="brand">portfolio</span></span>
-        </h2>
-        <div class="button-group">
-          <button type="button" class="btn btn-default active">ALL</button>
-          <button type="button" class="btn btn-default">WEB</button>
-          <button type="button" class="btn btn-default">APPS</button>
-          <button type="button" class="btn btn-default">ICONS</button>
+      <div id="roof">
+        <div class="container">
+          <h2>
+            <span class="corner">Our <span class="brand">portfolio</span></span>
+          </h2>
+          <div class="button-group">
+            <button type="button" class="btn btn-default active">ALL</button>
+            <button type="button" class="btn btn-default">WEB</button>
+            <button type="button" class="btn btn-default">APPS</button>
+            <button type="button" class="btn btn-default">ICONS</button>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img class="responsive" src="css/img/portfolio1.png" alt="">
+              </div>
+              <div class="caption">
+                <h4>Neque Porro Quisquam</h4>
+                <p>apps, icons, ui</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img class="responsive" src="css/img/portfolio2.png" alt="">
+              </div>
+              <div class="caption">
+                <h4>Neque Porro Quisquam</h4>
+                <p>apps, icons, ui</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img class="responsive" src="css/img/portfolio3.png" alt="">
+              </div>
+              <div class="caption">
+                <h4>Neque Porro Quisquam</h4>
+                <p>apps, icons, ui</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img class="responsive" src="css/img/portfolio4.png" alt="">
+              </div>
+              <div class="caption">
+                <h4>Neque Porro Quisquam</h4>
+                <p>apps, icons, ui</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img class="responsive" src="css/img/portfolio5.png" alt="">
+              </div>
+              <div class="caption">
+                <h4>Neque Porro Quisquam</h4>
+                <p>apps, icons, ui</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img class="responsive" src="css/img/portfolio6.png" alt="">
+            </div>
+              <div class="caption">
+                <h4>Neque Porro Quisquam</h4>
+                <p>apps, icons, ui</p>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primery">Watch more</button>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img class="responsive" src="css/img/portfolio1.png" alt="">
-            </div>
-            <div class="caption">
-              <h4>Neque Porro Quisquam</h4>
-              <p>apps, icons, ui</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img class="responsive" src="css/img/portfolio2.png" alt="">
-            </div>
-            <div class="caption">
-              <h4>Neque Porro Quisquam</h4>
-              <p>apps, icons, ui</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img class="responsive" src="css/img/portfolio3.png" alt="">
-            </div>
-            <div class="caption">
-              <h4>Neque Porro Quisquam</h4>
-              <p>apps, icons, ui</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img class="responsive" src="css/img/portfolio4.png" alt="">
-            </div>
-            <div class="caption">
-              <h4>Neque Porro Quisquam</h4>
-              <p>apps, icons, ui</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img class="responsive" src="css/img/portfolio5.png" alt="">
-            </div>
-            <div class="caption">
-              <h4>Neque Porro Quisquam</h4>
-              <p>apps, icons, ui</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img class="responsive" src="css/img/portfolio6.png" alt="">
-          </div>
-            <div class="caption">
-              <h4>Neque Porro Quisquam</h4>
-              <p>apps, icons, ui</p>
-            </div>
-          </div>
-        </div>
-        <button type="button" class="btn btn-primery">Watch more</button>
-      </div>
       </div>
     </div>
     <!--/ Portfolio -->
@@ -509,9 +509,9 @@
               <p>T: (202) 456-1111</p>
               <p>M: (202) 456-1212</p>
             </address>
-            <div class="social"><a href="javascript:void(0)"><span>f</span></a></div>
-            <div class="social"><a href="javascript:void(0)"><span>t</span></a></div>
-            <div class="social"><a href="javascript:void(0)"><span>g</span></a></div>
+            <div class="social"><a href="javascript:void(0)">f</a></div>
+            <div class="social"><a href="javascript:void(0)">t</a></div>
+            <div class="social"><a href="javascript:void(0)">g</a></div>
           </div>
         </div>
       </div>
@@ -525,7 +525,7 @@
       </div>
     </div>
     <!--/ Footer -->
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="./grunt/dist/build.min.js"></script>
   </body>
