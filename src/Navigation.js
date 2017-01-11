@@ -2,13 +2,13 @@ $(document).ready(function() {
 	var stickyNavTop = $('#navigation').offset().top;
 	 
 	var stickyNav = function() {
-	var scrollTop = $(window).scrollTop();
+	  var scrollTop = $(window).scrollTop();
 	      
-	if (scrollTop > stickyNavTop) { 
-	    $('#navigation').addClass('sticky');
-	} else {
-	    $('#navigation').removeClass('sticky'); 
-	}
+		if (scrollTop > stickyNavTop) { 
+		    $('#navigation').addClass('sticky');
+		} else {
+		    $('#navigation').removeClass('sticky'); 
+		}
 	};
 	 
 	stickyNav();
@@ -53,17 +53,17 @@ function AddActiveClass() {
 	  });
 
 	  $(window).scroll( function() {
-      var siblings = $('body > div');
-      var length = siblings.length;
+      var sections = $('body > div');
+      var length = sections.length;
       var i;
-      var sibling;
+      var section;
       
       for(i = 0; i < length; i++) {
-      sibling = siblings[i];
+      section = sections[i];
 
-	      if ($(sibling).offset().top <= ($(document).scrollTop() + $('#navigation').innerHeight())) {
+	      if ($(section).offset().top <= ($(document).scrollTop() + $('#navigation').innerHeight())) {
 
-	        filter(sibling);
+	        filter(section);
 	      }
       }
 	  });

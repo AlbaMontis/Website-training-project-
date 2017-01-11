@@ -47,13 +47,13 @@
 }
 
 .jumbotron {
-  background: url(../img/base.png) center center no-repeat;
+  background: url(../dist/base.png) center center no-repeat;
   background-size: cover;
 }
 
 #quate,
 #services {
-  background: url(../img/quate.png) 50% 70% no-repeat;
+  background: url(../dist/quate.png) 50% 70% no-repeat;
   background-size: cover;
 }
 
