@@ -68,10 +68,6 @@ module.exports = function (grunt) {
 
 		// Concat
 		concat: {
-		  options: {
-		    separator: ';'
-		  },
-		  
 		  // dist configuration is provided by useminPrepare
 		  dist: {}
 		},
@@ -83,6 +79,10 @@ module.exports = function (grunt) {
 		},
 
 		cssmin: {
+			options: {
+        keepSpecialComments: '*'
+      },
+
 		  dist: {}
 		},
 
